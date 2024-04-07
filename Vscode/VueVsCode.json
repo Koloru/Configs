@@ -1,0 +1,76 @@
+{
+  "editor.fontLigatures": false,
+  "editor.lineHeight": 1.7,
+  "editor.tabSize": 2,
+  "editor.fontSize": 16,
+  "editor.wordWrap": "on",
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingOvertype": "always",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.guides.bracketPairs": true,
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.stickyScroll.maxLineCount": 10,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.minimap.autohide": true,
+  "editor.linkedEditing": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "symbols.hidesExplorerArrows": false,
+  "search.smartCase": true,
+  "file-size.position": "left",
+  "splitHTMLAttributes.closingBracketOnNewLine": true,
+
+  "importCost.largePackageDarkColor": "#616975",
+  "importCost.largePackageLightColor": "#616975",
+  "importCost.mediumPackageLightColor": "#616975",
+  "importCost.smallPackageDarkColor": "#616975",
+  "importCost.smallPackageLightColor": "#616975",
+
+  "workbench.iconTheme": "awoo",
+  "workbench.colorTheme": "Nord",
+
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmPasteNative": false,
+
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  "git.autofetch": true,
+
+  "prettier.semi": false,
+  "prettier.singleAttributePerLine": true,
+  "prettier.vueIndentScriptAndStyle": true,
+  "prettier.htmlWhitespaceSensitivity": "strict",
+
+  "headwind.classRegex": {
+    "html": "\\bclass\\s*=\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\']",
+    "css": "\\B@apply\\s+([_a-zA-Z0-9\\s\\-\\:\\/]+);",
+    "javascript": "(?:\\bclassName\\s*=\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\'])|(?:\\btw\\s*`([_a-zA-Z0-9\\s\\-\\:\\/]*)`)",
+    "javascriptreact": "(?:\\bclassName\\s*=\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\'])|(?:\\btw\\s*`([_a-zA-Z0-9\\s\\-\\:\\/]*)`)",
+    "typescript": "(?:\\bclassName\\s*=\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\'])|(?:\\btw\\s*`([_a-zA-Z0-9\\s\\-\\:\\/]*)`)",
+    "typescriptreact": "(?:\\bclassName\\s*=\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\'])|(?:\\btw\\s*`([_a-zA-Z0-9\\s\\-\\:\\/]*)`)"
+  },
+
+  "auto-close-tag.disableOnLanguage": [],
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (EEx)",
+    "HTML (Eex)",
+    "plist"
+  ]
+}
